@@ -1,0 +1,76 @@
+h1 {
+  color: #D44727;
+  text-align: center;
+  text-decoration: underline;
+}
+h2, h3 {
+  color: #277BDF;
+  text-decoration: underline;
+}
+p {
+  font-family: "Copperplate", Monaco;
+  color: #F8800E;
+  font-size: 13px;
+}
+figure {
+  font-family: "Times New Roman", Monaco;
+  color: #F8800E;
+  font-size: 12px;
+}
+ul, ol {
+  font-family: Monaco ,"Times New Roman";
+  list-style-position: inside;
+}
+li {
+  color: #F8800E;
+  font-size: 13px;
+  
+}
+input {
+  background-color: #C3F3F9;
+}
+fieldset {
+  background-color: #D6F6AF;
+}
+legend {
+  font-family: "Courier New", "Times New Roman";
+  font-weight: bold;
+  font-size: 15px;
+}
+footer {
+  font-size: 20px;
+}
+span {
+  font-family: "Courier New", "Copperplate", Monaco;
+}
+span.black {
+  color: black;
+}
+
+.grid-container {
+  display:grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: 80px 350px 300px 40px;
+  gap: 10px;
+  background-color: #EFEFEF;
+}
+
+.item1 {
+  grid-column: 1/4;
+}
+
+.item2 {
+  grid-area: 3/ 3 / 3 / 4;
+  text-align: center;
+}
+.item3 {
+  grid-area: 3/ 1 / 3 / 2;
+  text-align: center;
+}
+.item4 {
+  grid-area: 2/ 1 / 2 / 4;
+  text-align: center;
+}
+.item5 {
+  grid-area: 4/ 1 / 4 / 4;
+}
